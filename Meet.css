@@ -1,0 +1,89 @@
+.tituloPrincipal {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: cadetblue;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.container {
+    text-align: center;
+}
+
+.main_page_content{
+
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+ul.navbar-nav li {
+    display:inline;
+    color:black;
+    border: 3px solid rgb(22, 22, 172);
+    border-radius: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-seriF;
+    font-size: x-large;
+    background-color: rgb(65, 153, 212);
+}
+
+ul li {
+    color: green
+}
+
+.servicios_content{
+    margin-right:700px;
+    margin-top: 1px;
+    margin-bottom: 50px;
+}
+
+.gallery {
+    width: 100%;
+    display: flex;
+    background:  rgb(231, 239, 243);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+}
+.gallery img {
+    width: 32%;
+
+    margin: 8px;
+    box-shadow: 0 0 0 4px black;
+}
+
+.gallery2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-items: center;
+    grid-gap: 25px;
+    grid-row-gap: 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.grid-box img {
+    width: 100%;
+}
+.page-footer {
+    background: rgb(0,212,255);
+    background: radial-gradient(circle, rgba(0,212,255,1) 50%, rgba(28,158,168,1) 100%, rgba(30,105,110,1) 100%);
+
+}
+.contenedor {
+    width: 100%;
+}
+input {
+    width: 100px; height: 30px;
+    transition: all 1s;
+}
+input:focus {
+    width: 200px;
+    font-size: 24px;
+}
+@media (max-width:768px){
+    .contenedor {
+        width:70%;
+    }
+}
