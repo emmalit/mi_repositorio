@@ -1,0 +1,19 @@
+{
+  "name": "CODERHOUSE",
+  "version": "1.0.0",
+  "description": "CoderHouse HTML  training",
+  "main": "index.js",
+  "author": "Emmanuel Lit",
+  "license": "MIT",
+  "private": false,
+  "scripts":{
+	  "build-css": "node-sass --include-path scss scss/prueba.scss Meet.css",
+	  "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6"
+  }
+  
+}
+	
